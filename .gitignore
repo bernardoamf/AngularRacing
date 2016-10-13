@@ -37,8 +37,8 @@ Thumbs.db
 #Angular Modules
 AngularRacing/node_modules/
 AngularRacing/typings/
-AngularRacing/obj/*.*
-AngularRacing/obj/Debug/*.*
+AngularRacing/obj/**
+AngularRacing/obj/Debug/**
 AngularRacing/bin/
 
 #Compilation Files
