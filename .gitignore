@@ -43,8 +43,8 @@ AngularRacing/bin/
 
 #Compilation Files
 *.cache
-*.map
-*.js
+-*.js.map
+*.js_
 
 
 
