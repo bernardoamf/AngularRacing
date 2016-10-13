@@ -11,15 +11,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
+        this.title = 'Ultra Racing';
+        this.carPart = {
+            "id": 1,
+            "name": "Super Tires",
+            "description": "These tires are the very best",
+            "inStock": 5
+        };
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>My First Angular App</h1>'
+            template: "<h1>{{title}}</h1>\n    <h2>{{carPart.name}}</h2>\n    <p>{{carPart.description}}</p>\n    <p>{{carPart.inStock}} on Stock</p>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
+//export class AppComponent { } 
 //# sourceMappingURL=app.component.js.map
