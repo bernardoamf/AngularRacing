@@ -39,6 +39,12 @@ AngularRacing/obj/
 AngularRacing/obj/Debug/
 AngularRacing/bin/
 
+#Compilation Files
+*.cache
+*.map
+*.js
+
+
 
 
 
