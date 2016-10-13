@@ -33,10 +33,10 @@ testem.log
 .DS_Store
 Thumbs.db
 #Angular Files
-./AngularRacing/node_modules
-./AngularRacing/typings
-./AngularRacing/obj
-./AngularRacing/bing
+AngularRacing/node_modules/
+AngularRacing/typings/
+AngularRacing/obj/
+AngularRacing/bin/
 
 
 
